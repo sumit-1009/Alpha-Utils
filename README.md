@@ -34,4 +34,4 @@ Javascript CSS HTML React Bootstrap
 
 
 ## Status
-NewsAlpha project is fully completed.
+Alpha Utils project is fully completed.
