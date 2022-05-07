@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 
 export default function TextForm(props) {
-
   const [text, setText] = useState('');
-    
+
     const handleUpClick = ()=>{
         let newText = text.toUpperCase();
         setText(newText);

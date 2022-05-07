@@ -8,7 +8,7 @@ export default function About(props) {
   return (
     <div className='container'>
       <h1 className='my-3' style={{ color: props.mode === 'dark' ? 'white' : '#042743' }}>About Us</h1>
-      <div class="accordion" id="accordionExample" style={myStyle}>
+      <div className="accordion" id="accordionExample" style={myStyle}>
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
             <button className="accordion-button" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -16,18 +16,18 @@ export default function About(props) {
             </button>
           </h2>
           <div id="collapseOne" className="accordion-collapse collapse show" style={myStyle} aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+            <div className="accordion-body">
               Alpha Utils gives you a way to analyze your text quickly and efficiently.Be it word count,character count.
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingTwo">
             <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               <strong>Free to use</strong>
             </button>
           </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" style={myStyle} aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div id="collapseTwo" className="accordion-collapse collapse" style={myStyle} aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div className="accordion-body">
               Alpha Utils is free character counter tool that provides instant character count & word count statistics for a given text. Alpha Utils reports the number of words and charcters. Thus it is suitable for writing text with word/character limits.
             </div>
